@@ -1,0 +1,673 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**** Font link poppins ****/
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Festive&family=Fredoka+One&family=Kaushan+Script&family=Poppins:wght@400;500&family=Tangerine:wght@700&family=Ubuntu:wght@500&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+
+/***************Navbar starts******************/
+.navbar-brand {
+  color: #212529;
+  padding: 5px 0px;
+  line-height: 80px;
+  font-size: 42px;
+  font-weight: 800;
+  text-transform: uppercase;
+  float: left;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  opacity: 1rem;
+  opacity: 0.8;
+}
+
+.navbar-brand {
+  padding-left: 130px;
+}
+
+.nav-menu {
+  padding-right: 150px;
+}
+
+.nav-item li a {
+  color: rgb(161, 152, 152);
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+}
+
+/******************Navbar ends**********************/
+
+/***************banner section starts***************/
+.banner {
+  position: relative;
+}
+
+.bg-video {
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video-overlay {
+  position: absolute;
+  background-color: rgba(35, 45, 57, 0.8);
+  top: 0;
+  left: 0;
+  bottom: 7px;
+  width: 100%;
+}
+
+.caption {
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.caption h6 {
+  margin-top: 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.caption h2 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 84px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.main-button a {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 20px;
+  background-color: #ed563b;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.caption span {
+  color: #ed563b;
+}
+
+/***************banner section ends***************/
+
+/*************Icon section starts***************/
+.icon-section {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row-icon {
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.seection-heading {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 80px;
+}
+
+.section-heading h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #232d39;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-heading img {
+  margin-left: 250px;
+  padding-top: 10px;
+}
+
+.img {
+  vertical-align: middle;
+}
+
+.section-heading p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #7a7a7a;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.ul {
+  margin-bottom: 0px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.features-items {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.features-items li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+
+.feature-item .left-icon img {
+  float: left;
+  margin-right: 30px;
+}
+
+.feature-item .right-content {
+  display: inline;
+}
+
+.feature-item .right-content h4 {
+  margin-top: 0px;
+  margin-bottom: 7px;
+  letter-spacing: 0.25px;
+  color: #232d39;
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+.right-content p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #7a7a7a;
+}
+
+.feature-item .right-content a.text-button {
+  margin-top: 7px;
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ed563b;
+  font-weight: 500;
+}
+
+.span {
+  color: #ed563b;
+}
+
+@media screen and (max-width: 1024px) {
+  .icon-section img {
+    margin-left: 170px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .icon-section h2 {
+    color: #232d39;
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .icon-section p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #7a7a7a;
+    width: 500px;
+    padding-top: 20px;
+    margin-left: 10px;
+  }
+
+  .section-heading img {
+    margin-left: 250px;
+    padding-top: 10px;
+  }
+
+  .section-heading h2 {
+    text-align: center;
+  }
+}
+
+/****************Icon section ends*****************/
+
+/*****************background section starts****************/
+
+.bg-section {
+  background-image: url("./assets/cta-bg.jpg");
+  width: 100vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-content h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bg-content p {
+  font-size: 16px;
+  color: #fff;
+  margin: 15px 0px 25px 0px;
+  line-height: 25px;
+  font-family: sans-serif;
+  width: 880px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.bg-content .main-button {
+  margin-left: 350px;
+}
+
+@media screen and (max-width: 1024px) {
+  .bg-section {
+    background-image: url("./assets/cta-bg.jpg");
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-content h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .bg-content p {
+    font-size: 16px;
+    color: #fff;
+    margin: 15px 0px 25px 0px;
+    line-height: 25px;
+    font-family: sans-serif;
+    width: 880px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+
+  .bg-content .main-button {
+    margin-left: 350px;
+    width: 100vw;
+  }
+}
+
+/*****************background section ends*****************/
+
+/****************classes section starts*******************/
+.classes-content h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #232d39;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.classes-content img {
+  padding-top: 20px;
+  margin-left: 650px;
+}
+
+.classes-content p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #7a7a7a;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.classes-button {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.classes-button button {
+  text-transform: capitalize;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  font-size: 17px;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: none;
+}
+
+.classes-button img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.img-1 {
+  display: block;
+}
+
+.img-2 {
+  display: none;
+}
+
+.img-3 {
+  display: none;
+}
+
+.img-4 {
+  display: none;
+}
+.rounded-button a{
+    text-align: center;
+    padding: 20px 30px;
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    background-color: #ed563b;
+    text-decoration: none;
+
+}
+.rounded-button a:hover{
+    color: #fff;
+}
+.classes-img h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.classes-img p{
+    font-size: 16px;
+    color: #7a7a7a;
+    margin-bottom: 28px;
+    line-height: 25px;
+    width: 700px;
+}
+.main-button a{
+    display: inline-block;
+    font-size: 14px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+
+}
+@media screen and (max-width: 1024px) {
+  .classes-content img {
+    padding-top: 20px;
+    margin-left: 180px;
+  }
+}
+
+/**************classes section ends**************/
+
+/**************table section starts**************/
+
+.table-section{
+    
+    background-image: url('./assets/schedule-bg.jpg');
+    width: 100vw;
+    height: 150vh;
+    background-size: cover;
+}
+.table-content h2{
+    font-size: 28px;
+    font-weight: 800;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 100px;
+}
+.table-content img{
+    padding-top: 20px;
+    margin-left: 650px;
+}
+.table-content p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.table-row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.schedule-filters {
+    margin-bottom: 40px;
+}
+.schedule-filters ul {
+    padding: 0;
+    text-align: center;
+}
+.filters ul{
+    margin: 0;
+    list-style: none;
+}
+.schedule-filters ul li{
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+}
+.table-options ul{
+    display: inline-flex;
+    color: #fff;
+    text-align: center;
+}
+
+.table-options ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width:1024px) {
+    .table-content img{
+        padding-top: 20px;
+        margin-left: 150px;
+    }
+}
+/**************table section ends**************/
+
+
+/**************expert section starts**************/
+
+.expert-content h2{
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 140px;
+}
+.expert-content img{
+    padding-top: 20px;
+    margin-left: 650px;
+}
+.expert-content p{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.trainer-content{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    padding: 40px;
+}
+.trainer-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.down-content span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ed563b;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.down-content h4{
+    font-size: 19px;
+    font-weight: 600;
+    color: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+    text-decoration: none;
+
+}
+.down-content p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #7a7a7a;
+    width: 250px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.down-content ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+.down-content ul li{
+    display: inline-block;
+    margin-right: 12px;
+    color: #212529;
+}
+.down-content ul li a{
+    color: #232d39;
+    transition: all .3s;
+}
+.trainer-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contact-form {
+   padding: 150px;
+   padding-right: 100px;
+    background-image: url('./assets/cta-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-form {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.form-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+/**************expert section ends**************/
+
+
+/**************footer section starts**************/
+
+.footer-content{
+    padding-top: 50px;
+    color: #232d39;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+
+}
+.footer-content p a{
+    cursor: pointer;
+    color: #ed563b;
+    text-decoration: none;
+
+}
+
+/**************footer section ends**************/
